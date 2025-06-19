@@ -12,15 +12,16 @@ import BaseButtons from '@/components/BaseButtons.vue'
 import LayoutGuest from '@/layouts/LayoutGuest.vue'
 
 const form = reactive({
-  login: 'john.doe',
-  pass: 'highly-secure-password-fYjUw-',
-  remember: true
+  login: 'Svea',
+  pass: '123456',
+  remember: false
 })
 
 const router = useRouter()
 
 const submit = () => {
   router.push('/dashboard')
+  alert('ok')
 }
 </script>
 
